@@ -1,0 +1,90 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+<title>Enzo's Weapon Shop</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<style type="text/CSS">
+input {font-family: “Source Code Pro”;}
+
+.weapon_block
+{
+	height: auto; 
+	width: 360px;
+	/*margin-top: 100px; //在顶部预留的宽度*/
+	background: #272822;/*背景色*/
+	border-width: 1px;	/*边缘的宽度，如果要分别设置可以这样：border-width: 15px 5px 15px 5px;依次为上、右、下、左*/
+	border-style: solid;
+	border-radius: 8px; /*圆角的大小*/
+	border-color: #000 #000 #000 #000; /*边框颜色，依次为上、右、下、左*/
+} 
+p,span{
+	font-family: "Source Code Pro",\5FAE\8F6F\96C5\9ED1;
+	font-size: 16px;
+	font-style: normal;
+    color: #FFFFFF;
+	margin: 2px 0 0 0;
+	padding: 5px 5px 5px 5px;
+	line-height: 1.4;
+	word-wrap:break-word; 
+	word-break:break-all;;
+}
+en{color: #32CD32;}
+#name{color:#F5DEB3}
+#type{font-style:italic}
+#curve{color:#F08080}
+	/*
+	稀有度等级颜色：
+	未鉴定：#F5DEB3
+	普通：#DCDCDC
+	特制：#0082E1
+	非凡：#00DC7C
+	绝品：#C15AEA
+	传奇：#FF7800
+	神铸：#FFD700
+	魔幻：#DC143C
+	------------
+	铭文：#F08080
+	强化：#32CD32
+	*/
+.shining{ animation: change 1s ease-in infinite;}
+@keyframes change {
+    0%{ text-shadow: 0 0 4px #DC143C}
+    50%{ text-shadow: 0 0 40px #DC143C}
+    100%{ text-shadow: 0 0 4px #DC143C}
+</style>
+<script src="funcs.js"></script>
+<script src="Jia_W.js"></script>
+</head>
+
+
+<body>
+
+<div id="question">
+	<p id="q1" style="color:#000000;">
+		<button type="button" onclick="show(0)">显示初始装备</button>
+	</p>
+	<p id="q2" style="color:#000000;" >
+		<button type="button" onclick="show(1)">显示锻造后装备</button>
+	</p>
+	<p id="q3" style="color:#000000;">
+		<button type="button" onclick="show(2)">显示锻造极致装备</button>
+	</p>
+</div>
+
+
+
+<div id="present" class="weapon_block" style="display:block;">
+	<p id='name'></p>
+	<p id="stars"></p>
+	<p id="type"></p>
+	<p id='curve'></p>
+	<p id="descript"></p>
+	<p id="item1"></p>
+	<p id="item3"></p>
+	<p id="elem4"></p>
+	<p id="item2"></p>
+	<p id="item4"></p>
+</div>
+</body>
+</html>
