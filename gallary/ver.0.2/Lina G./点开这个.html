@@ -1,0 +1,93 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+<title>Enzo's Weapon Shop</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<style type="text/CSS">
+input {font-family: “Source Code Pro”;}
+
+.weapon_block
+{
+	height: auto; 
+	width: 360px;
+	/*margin-top: 100px; //在顶部预留的宽度*/
+	background: #272822;/*背景色*/
+	border-width: 1px;	/*边缘的宽度，如果要分别设置可以这样：border-width: 15px 5px 15px 5px;依次为上、右、下、左*/
+	border-style: solid;
+	border-radius: 8px; /*圆角的大小*/
+	border-color: #000 #000 #000 #000; /*边框颜色，依次为上、右、下、左*/
+} 
+p{
+	font-family: "Source Code Pro",\5FAE\8F6F\96C5\9ED1;
+	font-size: 16px;
+	font-style: normal;
+    color: #FFFFFF;
+	margin: 2px 0 0 0;
+	padding: 5px 5px 5px 5px;
+	line-height: 1.4;
+	word-wrap:break-word; 
+	word-break:break-all;;
+}
+en{color: #32CD32;}
+#name{color:#F5DEB3}
+#type{font-style:italic}
+#curve{color:#F08080}
+	/*
+	稀有度等级颜色：
+	未鉴定：#F5DEB3
+	普通：#DCDCDC
+	特制：#0082E1
+	非凡：#00DC7C
+	绝品：#C15AEA
+	传奇：#FF7800
+	神铸：#FFD700
+	魔幻：#DC143C
+	------------
+	铭文：#F08080
+	强化：#32CD32
+	*/
+.shining{ animation: change 1s ease-in infinite;}
+@keyframes change {
+    0%{ text-shadow: 0 0 4px #00D17C}
+    50%{ text-shadow: 0 0 40px #00fC3C}
+    100%{ text-shadow: 0 0 4px #00DC7C}
+</style>
+<script src="funcs.js"></script>
+</head>
+
+
+<body>
+<div id="question">
+	<p id="q1" style="color:#000000;">
+		<label>问题1: 你的生日是?(2000/01/01这样的格式) -> </label>
+		<input type="text" id="ans1" class="text_field">
+		<button type="button" onclick="check(1)">确定</button>
+	</p>
+	<p id="q2" style="color:#000000;display:none;" >
+		<label>问题1: 日本上坡比较多还是下坡比较多?(三个中文汉字) -> </label>
+		<input type="text" id="ans2" class="text_field">
+		<button type="button" onclick="check(2)">确定</button>
+	</p>
+	<p id="q3" style="color:#000000;display:none;">
+		<label>问题1: 辣群蓝人的名字是?(六个字母，全部大写) -> </label>
+		<input type="text" id="ans3" class="text_field">
+		<button type="button" onclick="check(3)">确定</button>
+	</p>
+</div>
+
+<div id="present" class="weapon_block" style="display:none;">
+	<p id='name'>[古朴的手抄本]<br><未鉴定></p>
+	<p id="stars" style="display:none;font-size:12px"><en>★★★</en></p>
+	<p id="type">法杖</p>
+	<p id='curve'>* 似乎有着什么模糊的铭文（需进一步鉴定）*</p>
+	<p id="descript">一本记满了难以被解读的文字的精致手抄本。虽然封面上古朴的边花和内部的泥金雕纹是泰坦世纪中叶特有的装饰，但是书页中散发着淡淡薄香的墨迹看上去还是新的。</p>
+	<p id="item1" style="color:#BA55D3;display:none;">☍ <b>新</b>: 每三个回合获得一次额外的探索机会；每次探索(包括常规回合内的探索)获得未收录道具的可能性增加500%</p>
+	<p id="elem4">▹ 重量: <纸级>
+		 	  <br>▹ 攻击力: 423（法术伤害）
+			  <br>▹ 攻击速度: 96
+			  <br>▹ 攻击范围: 412</p>	
+	<p id="item2" style="color:#F01428;display:none;">▸ <b>岚</b>: 在以自己为中心的面积为46,755平方米的范围内召唤一场持续三个小时的暴风雨，对范围内的最多57,000个目标造成30%的法术伤害，并赋予“狂热”印记；当一个目标的“狂热”印记持续2小时以上时，该印记将转化为“追随”，自己随即获得拥有该印记的单位的指挥权</p>
+</div>
+</body>
+</html>

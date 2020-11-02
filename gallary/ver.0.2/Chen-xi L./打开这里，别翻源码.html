@@ -1,0 +1,96 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+<title>Enzo's Weapon Shop</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<style type="text/CSS">
+input {font-family: “Source Code Pro”;}
+
+.weapon_block
+{
+	height: auto; 
+	width: 360px;
+	/*margin-top: 100px; //在顶部预留的宽度*/
+	background: #272822;/*背景色*/
+	border-width: 1px;	/*边缘的宽度，如果要分别设置可以这样：border-width: 15px 5px 15px 5px;依次为上、右、下、左*/
+	border-style: solid;
+	border-radius: 8px; /*圆角的大小*/
+	border-color: #000 #000 #000 #000; /*边框颜色，依次为上、右、下、左*/
+} 
+p,span{
+	font-family: "Source Code Pro",\5FAE\8F6F\96C5\9ED1;
+	font-size: 16px;
+	font-style: normal;
+    color: #FFFFFF;
+	margin: 2px 0 0 0;
+	padding: 5px 5px 5px 5px;
+	line-height: 1.4;
+	word-wrap:break-word; 
+	word-break:break-all;;
+}
+en{color: #32CD32;}
+#name{color:#F5DEB3}
+#type{font-style:italic}
+#curve{color:#F08080}
+	/*
+	稀有度等级颜色：
+	未鉴定：#F5DEB3
+	普通：#DCDCDC
+	特制：#0082E1
+	非凡：#00DC7C
+	绝品：#C15AEA
+	传奇：#FF7800
+	神铸：#FFD700
+	魔幻：#DC143C
+	------------
+	铭文：#F08080
+	强化：#32CD32
+	*/
+.shining{ animation: change 1s ease-in infinite;}
+@keyframes change {
+    0%{ text-shadow: 0 0 4px #FFD700}
+    50%{ text-shadow: 0 0 40px #00FF00}
+    100%{ text-shadow: 0 0 4px #00FFFF}
+</style>
+<script src="funcs.js"></script>
+</head>
+
+
+<body>
+<div id="question">
+	<p id="q1" style="color:#000000;">
+		<label>问题1: 你的生日是?(2000/01/01这样的格式) -> </label>
+		<input type="text" id="ans1" class="text_field">
+		<button type="button" onclick="check(1)">确定</button>
+	</p>
+	<p id="q2" style="color:#000000;display:none;" >
+		<label>问题1: 日本上坡比较多还是下坡比较多?(三个中文汉字) -> </label>
+		<input type="text" id="ans2" class="text_field">
+		<button type="button" onclick="check(2)">确定</button>
+	</p>
+	<p id="q3" style="color:#000000;display:none;">
+		<label>问题1: 风元素的英语是?(三个字母，全部大写) -> </label>
+		<input type="text" id="ans3" class="text_field">
+		<button type="button" onclick="check(3)">确定</button>
+	</p>
+</div>
+
+<div id="present" class="weapon_block" style="display:none;">
+	<p id='name'>[雕花的长弓]<br><未鉴定></p>
+	<p id="stars" style="display:none;font-size:12px"><en>★★★★★</en></p>
+	<p id="type">长弓</p>
+	<p id='curve'>* 似乎有着什么模糊的字迹（需进一步鉴定）*</p>
+	<p id="descript">一把雕有异兽花纹的长弓。奇怪的是它的弓弦十分松弛，甚至不足以把箭射出去。让人总觉得其中蕴藏着几分玄机。</p>
+	<p id="item1" style="color:#87CEFA;display:none;">☍ <b>风语·壹</b>: 攻击造成魔法伤害；收到伤害的敌方有25%的概率收到一次同样数值的物理伤害</p>
+	<p id="elem4">▹ 重量: <重剑级>
+		 	  <br>▹ 攻击力: 540
+			  <br>▹ 攻击速度: 420
+			  <br>▹ 攻击范围: 92</p>
+	<p id="item2" style="color:#7FFF00;display:none;">▸ <b>风咆·一矢</b>: 凝神蓄力一段时间，向正前往射出一支300%攻击的魔法箭；对于建筑物的破坏效果增加350%</p>
+	<p id="item3" style="color:#7FFF00;display:none;">▸ <b>风咆·战场风魂</b>: 在自己的身边召唤出6把随机的实体化的元素武器，自动攻击周围对自己威胁度最高的三个目标</p>
+	<p id="item4" style="color:#d5ec55;display:none;}">▸ <span style="color:#d5ec55;}" class="shining"><b>拂晓明星</b></span>: 时间在3:00～5:00间才可使用。凝神蓄力非常长时间，召唤一颗星辰，然后向其射出一支魔法箭，被击中的星辰会引发一场在以自身为中心的半径540m的范围内的流星雨，每颗流星碎片对被击中的目标造成30%的光属性法术伤害；直接消灭范围的的召唤物与暗属性生物</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+<title>Enzo's Weapon Shop</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<style type="text/CSS">
+input {font-family: “Source Code Pro”;}
+
+.weapon_block
+{
+	height: auto; 
+	width: 360px;
+	/*margin-top: 100px; //在顶部预留的宽度*/
+	background: #272822;/*背景色*/
+	border-width: 1px;	/*边缘的宽度，如果要分别设置可以这样：border-width: 15px 5px 15px 5px;依次为上、右、下、左*/
+	border-style: solid;
+	border-radius: 8px; /*圆角的大小*/
+	border-color: #000 #000 #000 #000; /*边框颜色，依次为上、右、下、左*/
+} 
+p,span{
+	font-family: "Source Code Pro",\5FAE\8F6F\96C5\9ED1;
+	font-size: 16px;
+	font-style: normal;
+    color: #FFFFFF;
+	margin: 2px 0 0 0;
+	padding: 5px 5px 5px 5px;
+	line-height: 1.4;
+	word-wrap:break-word; 
+	word-break:break-all;;
+}
+en{color: #32CD32;}
+#name{color:#F5DEB3}
+#type{font-style:italic}
+#curve{color:#F08080}
+	/*
+	稀有度等级颜色：
+	未鉴定：#F5DEB3
+	普通：#DCDCDC
+	特制：#0082E1
+	非凡：#00DC7C
+	绝品：#C15AEA
+	传奇：#FF7800
+	神铸：#FFD700
+	魔幻：#DC143C
+	------------
+	铭文：#F08080
+	强化：#32CD32
+	*/
+.shining{ animation: change 1s ease-in infinite;}
+@keyframes change {
+    0%{ text-shadow: 0 0 4px #DC143C}
+    50%{ text-shadow: 0 0 40px #DC143C}
+    100%{ text-shadow: 0 0 4px #DC143C}
+</style>
+<script src="funcs.js"></script>
+</head>
+
+
+<body>
+<div id="question">
+	<p id="q1" style="color:#000000;">
+		<label>问题1: 日本上坡比较多还是下坡比较多?(三个中文汉字)-> </label>
+		<input type="text" id="ans1" class="text_field">
+		<button type="button" onclick="check(1)">确定</button>
+	</p>
+	<p id="q2" style="color:#000000;display:none;" >
+		<label>问题2: 马赛塔罗中，没有编号的大阿尔卡那是哪一张?(两个中文汉字)-> </label>
+		<input type="text" id="ans2" class="text_field">
+		<button type="button" onclick="check(2)">确定</button>
+	</p>
+	<p id="q3" style="color:#000000;display:none;">
+		<label>问题3: 马赛塔罗中，没有名字的大阿尔卡那是第几张?(阿拉伯数字) -> </label>
+		<input type="text" id="ans3" class="text_field">
+		<button type="button" onclick="check(3)">确定</button>
+	</p>
+</div>
+
+<div id="present" class="weapon_block" style="display:none;">
+	<p id='name'>[黑白的占卜卡片]<br><未鉴定></p>
+	<p id="stars" style="display:none;font-size:12px"><en>★★★★</en></p>
+	<p id="type">魔法书</p>
+	<p id='curve'>* 似乎有着什么模糊的字迹（需进一步鉴定）*</p>
+	<p id="descript">一副只有黑白两色的占卜卡片，上面的图案晦涩难懂而且没有固定形状。这是不是占卜用牌其实尚无定论，只是这些神秘的图案会给人一种能窥视到命运的错觉罢了。</p>
+	<p id="item1" style="color:#FF8C00;display:none;">☍ <b>心眼·壹</b>: 增加攻击速度；攻击造成攻击力350%的法术伤害。</p>
+	<p id="elem4">▹ 重量: <纸级>
+		 	  <br>▹ 攻击力: 50
+			  <br>▹ 攻击速度: 0
+			  <br>▹ 攻击范围: 0</p>
+	<p id="item2" style="color:#4876FF;display:none;">▸ <b>灵视·壹</b>: 立即赋予自己一个持续90秒的“灵视”状态，在该状态下以自己为中心半径25m范围内的所有友方单位获得“附灵”状态，会心一击率提升30个百分点，而且每次会心一击会额外积累3个百分点的会心一击率，积累上限为60%；每次非会心一击会使“附灵”恢复到最初的状态。</p>
+	<p id="item3" style="color:#FFD700;display:none;}">▸ <b>降神术·圣灵</b>: 以自己为中心半径30m范围内的所有单位的生命值全部恢复。然后自己获得以下四种“圣灵”状态之一：<br><b>[圣像·正]</b>持续15秒，受到的所有伤害转化为伤害数值40%的生命回复，最近的两个友方单位获得同样效果；<br><b>[圣像·逆]</b>持续10秒，反弹180%受到的伤害；<br><b>[银弹·正]</b>：持续100秒，自己的每次攻击会在敌人身上叠加1层持续20秒的“破魔”，叠加了5层“破魔”的敌人在受到会心一击即死；<br><b>[银弹·逆]</b>持续30秒，自己在受到魔法伤害后，变为魔法伤害免疫、物理伤害增加60%的状态，在受到武力伤害后，变为物理伤害免疫、魔法伤害增加60%的状态。<br>当自己拥有“圣灵”状态下，获得“镜魔”状态时，陷入“失明”状态直至两种状态全部消失。</p>
+	<p id="item4" style="color:#FF3030;display:none;}">▸ <b>血魔法·镜魔</b>: 自己受到当前生命值90%的瞬间真实伤害，获得一个持续10秒的“禁疗”状态。然后自己获得以下四种“镜魔”状态之一：<br><b>[堕天使·正]</b>持续50秒，所有视野范围内的敌人的治疗效果变为同样数值的真实伤害；<br><b>[堕天使·逆]</b>持续50秒，视野范围的所有伤害转化为暗属性伤害，所有造成暗属性伤害的动作消耗变为原来的300%；<br><b>[龙·正]</b>：持续20秒，攻击速度提升500%，攻击范围提升200%，攻击力提升100%，额外附加30%的龙属性伤害；<br><b>[龙·逆]</b>以自己为中心半径50m的范围内，所有敌人的攻击速度和移动速度减少30%，攻击过自己的敌人陷入“战栗”状态，命中率下降60%，持续10秒。<br>当自己拥有“镜魔”状态下，获得“圣灵”状态时，直接清除“圣灵”状态，并增加当前“镜魔”状态的持续时间50秒，镜魔状态消失时，自己陷入“失血”状态，该状态下不可使用道具，不可被治疗，攻击速度、攻击范围、攻击力变为0，持续时间与“镜魔”状态持续时间相同。</p>
+
+</div>
+</body>
+</html>
