@@ -14,6 +14,19 @@ function get_list()
 	return arr
 }
 
+function test()
+{
+	console.log(data.Jia_W)
+}
+
+function level_code_parser(code)
+{
+	if (code==0) {return "level_0"}
+	if (code==1) {return "level_en"}
+	if (code==2) {return "level_max"}
+}
+
+
 
 function show(level)
 {
@@ -23,7 +36,7 @@ function show(level)
 		// console.log(frame_list[i])
 		// console.log(read(data,frame_list,i))
 
-		read_data = eval('data['+String(level)+'].'+frame_list[i])
+		read_data = eval('gallery.Jia_W.'+level_code_parser(level)+'.'+frame_list[i])
 		document.getElementById(frame_list[i]).innerHTML = read_data.text
 		document.getElementById(frame_list[i]).style.display = read_data.display
 		document.getElementById(frame_list[i]).style.color = read_data.color
