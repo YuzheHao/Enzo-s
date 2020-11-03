@@ -3,7 +3,7 @@ from support.amiya import amiya
 work_path = '/Users/Yuzhe/Documents/projects/peanuts/Enzo-s/current/'
 
 save = amiya.read_lines_in_file(work_path+'gallery.js')
-text = amiya.read_lines_in_file(work_path+'Lina_G.json')
+text = amiya.read_lines_in_file(work_path+'/gallery/Chenxi_L.json')
 
 save.pop(-1)
 save[-1] += ','
