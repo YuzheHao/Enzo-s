@@ -2,7 +2,7 @@ input {font-family: “Source Code Pro”;}
 
 .weapon_block
 {
-	height: auto; 
+	height: auto;
 	width: 360px;
 	/*margin-top: 100px; //在顶部预留的宽度*/
 	background: #272822;/*背景色*/
@@ -10,7 +10,7 @@ input {font-family: “Source Code Pro”;}
 	border-style: solid;
 	border-radius: 8px; /*圆角的大小*/
 	border-color: #000 #000 #000 #000; /*边框颜色，依次为上、右、下、左*/
-} 
+}
 p,span{
 	font-family: "Source Code Pro",\5FAE\8F6F\96C5\9ED1;
 	font-size: 14px;
@@ -40,6 +40,7 @@ en{color: #32CD32;}
 	铭文：#F08080
 	强化：#32CD32
 	*/
+
 .shining{ animation: change 1s ease-in infinite;}
 @keyframes change {
     0%{ text-shadow: 0 0 4px #DC143C}

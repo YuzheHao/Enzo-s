@@ -1,4 +1,6 @@
-from support.amiya import amiya
+import sys
+sys.path.insert(0,'/Users/Yuzhe/Documents/projects/peanuts/amiya')
+import amiya
 
 work_path = '/Users/Yuzhe/Documents/projects/peanuts/Enzo-s/current/'
 

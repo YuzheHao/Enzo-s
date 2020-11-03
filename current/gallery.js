@@ -572,5 +572,440 @@ var gallery =
                 "display": "block"
             }
         }
+    },
+"Chenxi_L": {
+        "WEAPON_CODE": "202001171938JST",
+        "level_0": {
+            "name": {
+                "text": "[雕花的长弓]<br><未鉴定>",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "stars": {
+                "text": "<en>★★★★★</en>",
+                "color": "",
+                "display": "none",
+                "special": ""
+            },
+            "type": {
+                "text": "长弓",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "curve": {
+                "text": "* 似乎有着什么模糊的字迹（需进一步鉴定）*",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "descript": {
+                "text": "一把雕有异兽花纹的长弓。奇怪的是它的弓弦十分松弛，甚至不足以把箭射出去。让人总觉得其中蕴藏着几分玄机。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <重剑级><br>▹ 攻击力: 540<br>▹ 攻击速度: 420<br>▹ 攻击范围: 92",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>风语·壹</b>: 攻击造成魔法伤害；收到伤害的敌方有25%的概率收到一次同样数值的物理伤害</p>",
+                "color": "#87CEFA",
+                "display": "none",
+                "special": ""
+            },
+            "spell_0": {
+                "text": "▸ <b>风咆·一矢</b>: 凝神蓄力一段时间，向正前往射出一支300%攻击的魔法箭；对于建筑物的破坏效果增加350%",
+                "color": "7FFF00",
+                "display": "none",
+                "special": ""
+            },
+            "spell_1": {
+                "text": "▸ <b>风咆·战场风魂</b>: 在自己的身边召唤出6把随机的实体化的元素武器，自动攻击周围对自己威胁度最高的三个目标",
+                "color": "#7FFF00",
+                "display": "none",
+                "special": ""
+            },
+            "spell_2": {
+                "text": "<b>拂晓明星</b></span>: 时间在3:00～5:00间才可使用。凝神蓄力非常长时间，召唤一颗星辰，然后向其射出一支魔法箭，被击中的星辰会引发一场在以自身为中心的半径540m的范围内的流星雨，每颗流星碎片对被击中的目标造成30%的光属性法术伤害；直接消灭范围的的召唤物与暗属性生物",
+                "color": "#d5ec55",
+                "display": "none",
+                "special": "shining"
+            }
+        },
+        "level_en": {
+            "name": {
+                "text": "引风的大弓<br><绝品>",
+                "color": "#C15AEA",
+                "display": "",
+                "special": ""
+            },
+            "stars": {
+                "display": "block"
+            },
+            "descript": {
+                "text": "一把能将注入弓弦的魔力拟态成利箭射出的魔法弓。风象的猎人光是握着这把弓就可以感知到周围的风声和魔力流动，集中精神汇聚魔力射出的一箭甚至可以攻破城墙。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <重剑级><br>▹ 攻击力: 579<en> +128</en><br>▹ 攻击速度: 448 <en>+50</en><br>▹ 攻击范围: 432 <en>+52</en>",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>风语·壹</b>: 攻击造成魔法伤害；收到伤害的敌方有25%的概率收到一次同样数值的物理伤害</p>",
+                "color": "#87CEFA",
+                "display": "block",
+                "special": ""
+            },
+            "spell_0": {
+                "display": "block"
+            },
+            "spell_1": {
+                "display": "none"
+            },
+            "spell_2": {
+                "display": "none"
+            }
+        },
+        "level_max": {
+            "name": {
+                "text": "<b>黎明晨曦·巨鸟席兹</b><br><传奇>",
+                "color": "#FF7800",
+                "display": "block",
+                "special": "shining"
+            },
+            "stars": {
+                "display": "block"
+            },
+            "curve": {
+                "text": "吾、为星辰、为茫月、为苍穹、为自由之风",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "descript": {
+                "text": "传说是由魔兽·巨鸟希兹化作的威力无比的魔法弓。将它握在手里的时候自己就像化作了风神一般，可以肆意的将周围的风化作巨斧、大剑、重锤等武器、狂风暴雨般地袭向敌人。据说达到“天神一心”境界的猎人可以用这把弓射出星辰，贯穿黑夜、划破黎明。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <重剑级><br>▹ 攻击力: 609<en> +128</en><br>▹ 攻击速度: 548 <en>+50</en><br>▹ 攻击范围: 572 <en>+52</en>",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>风语·贰</b>: 攻击造成130%的魔法伤害；收到伤害的敌方有50%的概率收到一次100%的物理伤害",
+                "display": "block"
+            },
+            "spell_0": {
+                "display": "block"
+            },
+            "spell_1": {
+                "display": "block"
+            },
+            "spell_2": {
+                "display": "block"
+            }
+        }
+    },
+"Chenxi_L": {
+        "WEAPON_CODE": "202001171938JST",
+        "level_0": {
+            "name": {
+                "text": "[雕花的长弓]<br><未鉴定>",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "stars": {
+                "text": "<en>★★★★★</en>",
+                "color": "",
+                "display": "none",
+                "special": ""
+            },
+            "type": {
+                "text": "长弓",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "curve": {
+                "text": "* 似乎有着什么模糊的字迹（需进一步鉴定）*",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "descript": {
+                "text": "一把雕有异兽花纹的长弓。奇怪的是它的弓弦十分松弛，甚至不足以把箭射出去。让人总觉得其中蕴藏着几分玄机。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <重剑级><br>▹ 攻击力: 540<br>▹ 攻击速度: 420<br>▹ 攻击范围: 92",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>风语·壹</b>: 攻击造成魔法伤害；收到伤害的敌方有25%的概率收到一次同样数值的物理伤害</p>",
+                "color": "#87CEFA",
+                "display": "none",
+                "special": ""
+            },
+            "spell_0": {
+                "text": "▸ <b>风咆·一矢</b>: 凝神蓄力一段时间，向正前往射出一支300%攻击的魔法箭；对于建筑物的破坏效果增加350%",
+                "color": "7FFF00",
+                "display": "none",
+                "special": ""
+            },
+            "spell_1": {
+                "text": "▸ <b>风咆·战场风魂</b>: 在自己的身边召唤出6把随机的实体化的元素武器，自动攻击周围对自己威胁度最高的三个目标",
+                "color": "#7FFF00",
+                "display": "none",
+                "special": ""
+            },
+            "spell_2": {
+                "text": "<b>拂晓明星</b></span>: 时间在3:00～5:00间才可使用。凝神蓄力非常长时间，召唤一颗星辰，然后向其射出一支魔法箭，被击中的星辰会引发一场在以自身为中心的半径540m的范围内的流星雨，每颗流星碎片对被击中的目标造成30%的光属性法术伤害；直接消灭范围的的召唤物与暗属性生物",
+                "color": "#d5ec55",
+                "display": "none",
+                "special": "shining"
+            }
+        },
+        "level_en": {
+            "name": {
+                "text": "引风的大弓<br><绝品>",
+                "color": "#C15AEA",
+                "display": "",
+                "special": ""
+            },
+            "stars": {
+                "display": "block"
+            },
+            "descript": {
+                "text": "一把能将注入弓弦的魔力拟态成利箭射出的魔法弓。风象的猎人光是握着这把弓就可以感知到周围的风声和魔力流动，集中精神汇聚魔力射出的一箭甚至可以攻破城墙。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <重剑级><br>▹ 攻击力: 579<en> +128</en><br>▹ 攻击速度: 448 <en>+50</en><br>▹ 攻击范围: 432 <en>+52</en>",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>风语·壹</b>: 攻击造成魔法伤害；收到伤害的敌方有25%的概率收到一次同样数值的物理伤害</p>",
+                "color": "#87CEFA",
+                "display": "block",
+                "special": ""
+            },
+            "spell_0": {
+                "display": "block"
+            },
+            "spell_1": {
+                "display": "none"
+            },
+            "spell_2": {
+                "display": "none"
+            }
+        },
+        "level_max": {
+            "name": {
+                "text": "<b>黎明晨曦·巨鸟席兹</b><br><传奇>",
+                "color": "#FF7800",
+                "display": "block",
+                "special": "shining"
+            },
+            "stars": {
+                "display": "block"
+            },
+            "curve": {
+                "text": "吾、为星辰、为茫月、为苍穹、为自由之风",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "descript": {
+                "text": "传说是由魔兽·巨鸟希兹化作的威力无比的魔法弓。将它握在手里的时候自己就像化作了风神一般，可以肆意的将周围的风化作巨斧、大剑、重锤等武器、狂风暴雨般地袭向敌人。据说达到“天神一心”境界的猎人可以用这把弓射出星辰，贯穿黑夜、划破黎明。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <重剑级><br>▹ 攻击力: 609<en> +128</en><br>▹ 攻击速度: 548 <en>+50</en><br>▹ 攻击范围: 572 <en>+52</en>",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>风语·贰</b>: 攻击造成130%的魔法伤害；收到伤害的敌方有50%的概率收到一次100%的物理伤害",
+                "display": "block"
+            },
+            "spell_0": {
+                "display": "block"
+            },
+            "spell_1": {
+                "display": "block"
+            },
+            "spell_2": {
+                "display": "block"
+            }
+        }
+    },
+"Chenxi_L": {
+        "WEAPON_CODE": "202001171938JST",
+        "level_0": {
+            "name": {
+                "text": "[雕花的长弓]<br><未鉴定>",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "stars": {
+                "text": "<en>★★★★★</en>",
+                "color": "",
+                "display": "none",
+                "special": ""
+            },
+            "type": {
+                "text": "长弓",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "curve": {
+                "text": "* 似乎有着什么模糊的字迹（需进一步鉴定）*",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "descript": {
+                "text": "一把雕有异兽花纹的长弓。奇怪的是它的弓弦十分松弛，甚至不足以把箭射出去。让人总觉得其中蕴藏着几分玄机。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <重剑级><br>▹ 攻击力: 540<br>▹ 攻击速度: 420<br>▹ 攻击范围: 92",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>风语·壹</b>: 攻击造成魔法伤害；收到伤害的敌方有25%的概率收到一次同样数值的物理伤害</p>",
+                "color": "#87CEFA",
+                "display": "none",
+                "special": ""
+            },
+            "spell_0": {
+                "text": "▸ <b>风咆·一矢</b>: 凝神蓄力一段时间，向正前往射出一支300%攻击的魔法箭；对于建筑物的破坏效果增加350%",
+                "color": "7FFF00",
+                "display": "none",
+                "special": ""
+            },
+            "spell_1": {
+                "text": "▸ <b>风咆·战场风魂</b>: 在自己的身边召唤出6把随机的实体化的元素武器，自动攻击周围对自己威胁度最高的三个目标",
+                "color": "#7FFF00",
+                "display": "none",
+                "special": ""
+            },
+            "spell_2": {
+                "text": "<b>拂晓明星</b></span>: 时间在3:00～5:00间才可使用。凝神蓄力非常长时间，召唤一颗星辰，然后向其射出一支魔法箭，被击中的星辰会引发一场在以自身为中心的半径540m的范围内的流星雨，每颗流星碎片对被击中的目标造成30%的光属性法术伤害；直接消灭范围的的召唤物与暗属性生物",
+                "color": "#d5ec55",
+                "display": "none",
+                "special": "shining"
+            }
+        },
+        "level_en": {
+            "name": {
+                "text": "引风的大弓<br><绝品>",
+                "color": "#C15AEA",
+                "display": "",
+                "special": ""
+            },
+            "stars": {
+                "display": "block"
+            },
+            "descript": {
+                "text": "一把能将注入弓弦的魔力拟态成利箭射出的魔法弓。风象的猎人光是握着这把弓就可以感知到周围的风声和魔力流动，集中精神汇聚魔力射出的一箭甚至可以攻破城墙。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <重剑级><br>▹ 攻击力: 579<en> +128</en><br>▹ 攻击速度: 448 <en>+50</en><br>▹ 攻击范围: 432 <en>+52</en>",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>风语·壹</b>: 攻击造成魔法伤害；收到伤害的敌方有25%的概率收到一次同样数值的物理伤害</p>",
+                "color": "#87CEFA",
+                "display": "block",
+                "special": ""
+            },
+            "spell_0": {
+                "display": "block"
+            },
+            "spell_1": {
+                "display": "none"
+            },
+            "spell_2": {
+                "display": "none"
+            }
+        },
+        "level_max": {
+            "name": {
+                "text": "<b>黎明晨曦·巨鸟席兹</b><br><传奇>",
+                "color": "#FF7800",
+                "display": "block",
+                "special": "shining"
+            },
+            "stars": {
+                "display": "block"
+            },
+            "curve": {
+                "text": "吾、为星辰、为茫月、为苍穹、为自由之风",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "descript": {
+                "text": "传说是由魔兽·巨鸟希兹化作的威力无比的魔法弓。将它握在手里的时候自己就像化作了风神一般，可以肆意的将周围的风化作巨斧、大剑、重锤等武器、狂风暴雨般地袭向敌人。据说达到“天神一心”境界的猎人可以用这把弓射出星辰，贯穿黑夜、划破黎明。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <重剑级><br>▹ 攻击力: 609<en> +128</en><br>▹ 攻击速度: 548 <en>+50</en><br>▹ 攻击范围: 572 <en>+52</en>",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>风语·贰</b>: 攻击造成130%的魔法伤害；收到伤害的敌方有50%的概率收到一次100%的物理伤害",
+                "display": "block"
+            },
+            "spell_0": {
+                "display": "block"
+            },
+            "spell_1": {
+                "display": "block"
+            },
+            "spell_2": {
+                "display": "block"
+            }
+        }
     }
 }
