@@ -1,0 +1,131 @@
+{
+    "Lina_G": {
+        "WEAPON_CODE": "202001181122JST",
+        "level_0": {
+            "name": {
+                "text": "[古朴的手抄本]<br><未鉴定>",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "stars": {
+                "text": "<en>★★★</en>",
+                "color": "",
+                "display": "none",
+                "special": ""
+            },
+            "type": {
+                "text": "法杖",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "curve": {
+                "text": "* 似乎有着什么模糊的铭文（需进一步鉴定）*",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "descript": {
+                "text": "一本记满了难以被解读的文字的精致手抄本。虽然封面上古朴的边花和内部的泥金雕纹是泰坦世纪中叶特有的装饰，但是书页中散发着淡淡薄香的墨迹看上去还是新的。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <纸级><br>▹ 攻击力: 423（法术伤害<br>▹ 攻击速度: 96<br>▹ 攻击范围: 412",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "text": "☍ <b>新</b>: 每三个回合获得一次额外的探索机会；每次探索(包括常规回合内的探索)获得未收录道具的可能性增加500%。",
+                "color": "#BA55D3",
+                "display": "none",
+                "special": ""
+            },
+            "spell_0": {
+                "text": "▸ <b>岚</b>: 在以自己为中心的面积为46,755平方米的范围内召唤一场持续三个小时的暴风雨，对范围内的最多57,000个目标造成30%的法术伤害，并赋予“狂热”印记；当一个目标的“狂热”印记持续2小时以上时，该印记将转化为“追随”，自己随即获得拥有该印记的单位的指挥权。",
+                "color": "#F01428",
+                "display": "none",
+                "special": "shining"
+            }
+        },
+        "level_en": {
+            "name": {
+                "text": "唤岚的魔法书<br><非凡>",
+                "color": "#00DC7C",
+                "display": "block",
+                "special": ""
+            },
+            "stars": {
+                "display": "block"
+            },
+            "type": {
+                "text": "法杖",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "curve": {
+                "text": "* 似乎有着什么模糊的字迹（需进一步鉴定）*",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "descript": {
+                "text": "一本记载了召唤暴风雨的魔法的精美手抄本。与传统的咏唱不同，咒文的书写技巧十分特别，这使得由其召唤而来的暴风雨非但只有极大的物理破坏力，还有着不可忽视的精神冲击力。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "text": "▹ 重量: <纸级><br>▹ 攻击力: 423（法术伤害） <en>+62</en><br>▹ 攻击速度: 96<br>▹ 攻击范围: 412",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "passive_0": {
+                "display": "block"
+            }
+        },
+        "level_max": {
+            "name": {
+                "text": "礼书·丽娜<br><非凡>",
+                "color": "#00DC7C",
+                "display": "block",
+                "special": "shining"
+            },
+            "stars": {
+                "display": "block"
+            },
+            "type": {
+                "text": "法杖",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "curve": {
+                "text": "ご誕生日おめでとう〜",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "descript": {
+                "text": "一本作为礼物被传递的高贵的精美魔法书，翻页的时候会在空间划出颜色奇幻的星尘。书的前半部分写满了包括唤岚术在内的各式华丽咒文，但后半部分却是意味深长的留白。让人不禁期待受礼者会在上面书写什么样的内容。",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "elem4": {
+                "display": "block"
+            },
+            "passive_0": {
+                "display": "block"
+            },
+            "spell_0": {
+                "display": "block"
+            }
+        }
+    }
+}

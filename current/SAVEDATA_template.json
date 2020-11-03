@@ -1,0 +1,191 @@
+{
+    "WEAPON_NAME": {
+        "WEAPON_CODE": "202010061234JST",
+        "level_0": {
+            "name": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "stars": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "type": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "curve": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "descript": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "elem4": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "item1": {
+                "text": "",
+                "color": "#",
+                "display": "",
+                "special": ""
+            },
+            "item2": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "item3": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "item4": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            }
+        },
+        "level_en": {
+            "name": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "stars": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "type": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "curve": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "descript": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "elem4": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "item1": {
+                "text": "",
+                "color": "#",
+                "display": "",
+                "special": ""
+            },
+            "item2": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "item3": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "item4": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            }
+        },
+        "level_max": {
+            "name": {
+                "text": "",
+                "color": "#DC143C",
+                "display": "block",
+                "special": "shining"
+            },
+            "stars": {
+                "text": "",
+                "color": "",
+                "display": "block",
+                "special": ""
+            },
+            "type": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "curve": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "descript": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "elem4": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "item1": {
+                "text": "",
+                "color": "#",
+                "display": "",
+                "special": ""
+            },
+            "item2": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "item3": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            },
+            "item4": {
+                "text": "",
+                "color": "",
+                "display": "",
+                "special": ""
+            }
+        }
+    }
+}

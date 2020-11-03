@@ -10,37 +10,40 @@
 
 <!-- import javascript -->
 <script src="funcs.js"></script>
-<script src="Jia_W.js"></script>
+<script src="gallery.js"></script>
 </head>
 
 
 <body>
 
 <div id="question">
-	<p id="q1" style="color:#000000;">
-		<button type="button" onclick="show(0)">显示初始装备</button>
+	<p id="weapon_list" style="color:#000000;">
+		<button type="button" onclick="target=show_button('Jia_W')">For Jia W.</button>
+		<button type="button" onclick="target=show_button('Lina_G')">For Lina G.</button>
 	</p>
-	<p id="q2" style="color:#000000;" >
-		<button type="button" onclick="show(1)">显示锻造后装备</button>
+	<p id="status_list" style="color:#000000;display:block;">
+		<button id="button_0" type="button" onclick="show(target,0)" disabled="true">显示原始装备</button>
+		<button id="button_1" type="button" onclick="show(target,1)" disabled="true">显示锻造后装备</button>
+		<button id="button_2" type="button" onclick="show(target,2)" disabled="true">显示锻造极致装备</button>
 	</p>
-	<p id="q3" style="color:#000000;">
-		<button type="button" onclick="show(2)">显示锻造极致装备</button>
-	</p>
+
 </div>
 
 
 
-<div id="present" class="weapon_block" style="display:block;">
+<div id="present" class="weapon_block" style="display:none;">
 	<p id='name'></p>
 	<p id="stars" style="font-size:10px"></p>
 	<p id="type"></p>
 	<p id='curve'></p>
 	<p id="descript"></p>
-	<p id="item1"></p>
-	<p id="item3"></p>
+	<p id="passive_0"></p>
+	<p id="passive_1"></p>
+	<p id="passive_2"></p>
 	<p id="elem4"></p>
-	<p id="item2"></p>
-	<p id="item4"></p>
+	<p id="spell_0"></p>
+	<p id="spell_1"></p>
+	<p id="spell_2"></p>
 </div>
 </body>
 </html>
