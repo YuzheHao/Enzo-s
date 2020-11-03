@@ -1,3 +1,7 @@
+# the gallary page:
+
+https://yuzhehao.github.io/Enzo-s/current/main.html
+
 # info about Enzo's 
 
 ## 基础4属性：Elem4
