@@ -1,6 +1,6 @@
 # the gallary page:
 
-https://yuzhehao.github.io/Enzo-s/current/main.html
+https://yuzhehao.github.io/Enzo-s/current/index.html
 
 # info about Enzo's 
 
